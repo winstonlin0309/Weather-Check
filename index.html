@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Check</title>
+</head>
+<body>
+    <h1>Weather Check</h1>
+    <form action="/" method="post">
+        <h3>Enter Your Zip Code</h3>
+        <input type="text" name="zipCode" placeholder="zip code">
+        <h3>How you want to display? </h3>        
+        <label>
+            <input type="radio" name="fahrenheit" value="option1">
+            Fahrenheit
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="celsius" value="option2">
+            Celsius
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="kelvin" value="option3">
+            Kelvin(Default)
+          </label>
+          <br>
+          <button type="submit">Check Weather</button>
+        <br><br>
+    </form>
+</body>
+</html>
